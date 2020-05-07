@@ -109,7 +109,7 @@ if ( ! defined( 'DISALLOW_FILE_EDIT' ) ) {
 }
 if ( ! defined( 'DISALLOW_FILE_MODS' ) ) {
 	// Disable plugin and theme updates and installation from the admin
-	define( 'DISALLOW_FILE_MODS', "true" === strtolower( getenv( 'DISALLOW_FILE_MODS' ) ?: "true" ) );
+	//define( 'DISALLOW_FILE_MODS', "true" === strtolower( getenv( 'DISALLOW_FILE_MODS' ) ?: "true" ) );
 }
 
 /* That's all, stop editing! Happy publishing. */
